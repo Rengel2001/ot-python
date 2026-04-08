@@ -8,8 +8,8 @@ dependencies = [
     "matplotlib>=3.10.8",
     "numba>=0.60",
     "numpy<2.4",
-    "torch>=2.10.0",
-    "torchvision>=0.25.0",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
     "umap-learn>=0.5.7",
     "pot>=0.9",
     "normflows>=1.7",
@@ -19,3 +19,6 @@ dependencies = [
     "kagglehub>=0.3",
     "pytorch-fid>=0.3.0",
 ]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu124"
