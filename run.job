@@ -11,4 +11,6 @@
 ulimit -v unlimited
 echo "Job Started: $(date)" 
 cd /home/ryengel/ot-python
-cd Group-A && uv sync && uv run python main.py
+uv sync
+cd Group-A
+uv run python main.py
