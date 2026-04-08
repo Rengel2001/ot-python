@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=Group-A
+#SBATCH --output=/home/ryengel/OT-Research/ot-python/logs/Group-A.txt
+#SBATCH --error=/home/ryengel/OT-Research/ot-python/logs/Group-A.txt
+#SBATCH --time=2-00:00:00 
+#SBATCH --mem=32000
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --nodelist=orion
+
+ulimit -v unlimited
+echo "Job Started: $(date)" 
+cd /home/ryengel/OT-Research/ot-python
+cd Group-A && uv sync && uv run python main.py

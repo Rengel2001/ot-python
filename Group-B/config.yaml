@@ -1,0 +1,18 @@
+# Group B: 100-dim generation comparison across 4 datasets
+# Run: cd Group-B && python main.py
+
+datasets:
+  - mnist
+  - fashion_mnist
+  - cifar10
+  - celeba
+
+methods:
+  - ae
+  - aeot
+  - otswd
+  - nf
+  - fm
+  - cnf
+  - ddpm
+  - vae

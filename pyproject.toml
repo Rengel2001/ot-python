@@ -1,0 +1,21 @@
+[project]
+name = "ot-research"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "llvmlite>=0.43",
+    "matplotlib>=3.10.8",
+    "numba>=0.60",
+    "numpy<2.4",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "umap-learn>=0.5.7",
+    "pot>=0.9",
+    "normflows>=1.7",
+    "pyyaml>=6.0",
+    "scikit-learn>=1.0",
+    "gdown>=5.0",
+    "kagglehub>=0.3",
+    "pytorch-fid>=0.3.0",
+]

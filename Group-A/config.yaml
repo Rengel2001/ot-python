@@ -1,0 +1,16 @@
+# Group A: 2D MNIST latent space visualization
+# Run: cd Group-A && python main.py
+
+dataset: mnist
+
+experiments:
+  - umap
+  - cnf
+  - ddpm
+  - fm
+  - nf
+  - otemd
+  - ae
+  - vae
+  - sdot
+  - otswd
