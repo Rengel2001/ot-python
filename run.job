@@ -6,7 +6,7 @@
 #SBATCH --mem=32000
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --nodelist=tesla1
+#SBATCH --nodelist=tesla2
 
 ulimit -v unlimited
 echo "Job Started: $(date)" 
