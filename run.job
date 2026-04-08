@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --job-name=Group-A
-#SBATCH --output=/home/ryengel/OT-Research/ot-python/logs/Group-A.txt
-#SBATCH --error=/home/ryengel/OT-Research/ot-python/logs/Group-A.txt
+#SBATCH --output=/home/ryengel/ot-python/logs/Group-A.txt
+#SBATCH --error=/home/ryengel/ot-python/logs/Group-A.txt
 #SBATCH --time=2-00:00:00 
 #SBATCH --mem=32000
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --nodelist=orion
+#SBATCH --nodelist=tesla1
 
 ulimit -v unlimited
 echo "Job Started: $(date)" 
